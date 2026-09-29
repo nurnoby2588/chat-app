@@ -5,18 +5,18 @@
     "outDir": "./dist",
 
     /* Environment */
-    "module": "commonjs",
-    "target": "es2022",
-    "lib": ["es2022"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
+    "lib": ["ES2022"],
     "types": ["node"],
 
     /* Module Resolution */
-    "moduleResolution": "node",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
 
-    /* Type Checking (Strictness) */
+    /* Type Checking */
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitReturns": true,
